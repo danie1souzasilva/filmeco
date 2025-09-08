@@ -31,6 +31,8 @@ public class FilmeService {
         filme.ano = filmeRecord.ano();
         filme.diretor = filmeRecord.diretor();
         filme.genero = filmeRecord.genero();
+        filme.imdbID = filmeRecord.imdbID();
+        filme.poster = filmeRecord.poster();
 
         // 3. Salvar no banco (gera id automaticamente)
         return filmeRepository.save(filme);

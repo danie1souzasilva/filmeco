@@ -6,5 +6,6 @@ public record FilmeRecord(@JsonProperty("Title")String titulo,
                           @JsonProperty("Year")String ano,
                           @JsonProperty("Director")String diretor,
                           @JsonProperty("Genre")String genero,
-                          @JsonProperty("imdbID")String imdbID) {
+                          @JsonProperty("imdbID")String imdbID,
+                          @JsonProperty("Poster") String poster) {
 }

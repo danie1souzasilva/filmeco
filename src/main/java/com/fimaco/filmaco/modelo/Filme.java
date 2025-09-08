@@ -15,6 +15,8 @@ public class Filme {
     public String diretor;
     public String genero;
     public String imdbID;
+    public String poster;
+
 
     public Filme() {
     }
